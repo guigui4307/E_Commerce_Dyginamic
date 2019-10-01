@@ -1,1 +1,14 @@
-<p>list works!</p>
+<table border="1">
+    <tr>
+        <th>Nom</th>
+        <th>Description</th>
+        <th>Quantité</th>
+        <th>Prix</th>
+    </tr>
+    <tr *ngFor="let article of listArticle">
+        <td>{{article.name}}</td>
+        <td>{{article.descritpion}}</td>
+        <td>{{article.quantity}}</td>
+        <td>{{article.price}}</td>
+    </tr>
+</table>
