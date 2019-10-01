@@ -1,4 +1,4 @@
-class  Users {
+export default class  Users {
     name:string;
     email:string;
     passeword:string;

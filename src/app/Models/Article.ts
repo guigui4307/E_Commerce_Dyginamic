@@ -1,4 +1,4 @@
-class Article {
+export default class Article {
     name:string;
     descritpion:string;
     quantity:number;
