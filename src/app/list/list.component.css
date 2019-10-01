@@ -1,8 +1,17 @@
 table{
+    
     text-align: center;
     border-collapse: collapse;
+    width: 100%;
+    border: 2px solid black;
+
 }
 
 td{
     text-align: center;
+    
+}
+th{
+    background-color: gray;
+    padding: 5px;
 }

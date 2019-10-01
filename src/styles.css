@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+.container{
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: center;
+    border: 1px solid black;
+    flex-wrap: nowrap;
+}
+
+.container2{
+    flex-direction: row;
+    justify-content: center;
+    border: 1 solid black;
+}
+
+.test{
+    width: 50px;
+}
