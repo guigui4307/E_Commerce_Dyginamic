@@ -11,6 +11,9 @@ import { ListComponent } from './list/list.component';
 import { ArticleComponent } from './article/article.component';
 import { NavbarComponent } from './layout/navbar/navbar.component';
 import { FooterComponent } from './layout/footer/footer.component';
+import { ProfileComponent } from './Users/profile/profile.component';
+import { EditComponent } from './Users/edit/edit.component';
+import { SearchComponent } from './Users/search/search.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { FooterComponent } from './layout/footer/footer.component';
     ListComponent,
     ArticleComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    ProfileComponent,
+    EditComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,

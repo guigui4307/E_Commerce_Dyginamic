@@ -11,7 +11,11 @@ const routes: Routes = [
   {path:'home', component: HomeComponent },
   {path:'about', component: AboutComponent },
   {path:'contact', component: ContactComponent },
-  {path:'**', component: NotFoundComponent }
+  {
+    path:'users', 
+    loadChildren: () => import('./users/users.module').then(mod => mod.UsersModule)
+  },
+  {path:'**', component: NotFoundComponent },
 ];
 
 @NgModule({
